@@ -70,10 +70,10 @@ function PostDetail({ post }: { post: Post }) {
         <div className="py-4" />
         <Giscus
           id="comments"
-          repo="fantompocong/pocong.xyz"
-          repoId="R_kgDOHqneBQ"
-          category="Announcements"
-          categoryId="DIC_kwDOHqneBc4CQdnP"
+          repo="fantompocong/pocong-sanctuary"
+          repoId="R_kgDOH71gWA"
+          category="General"
+          categoryId="DIC_kwDOH71gWM4CROQR"
           mapping="url"
           strict="0"
           reactionsEnabled="0"
