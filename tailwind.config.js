@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Karla", ...fontFamily.sans],
+        primary: ["monospace", ...fontFamily.sans],
       },
       colors: {
         darkPrimary: "#121212",
