@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.pocong.xyz
+
+# Sitemaps
+Sitemap: https://www.pocong.xyz/sitemap.xml
