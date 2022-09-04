@@ -12,6 +12,7 @@ function Layout({ children }: LayoutProps) {
       <div className="container 2xl:max-w-7xl px-4 mx-auto flex-1">
         {children}
       </div>
+    </div>
   );
 }
 
