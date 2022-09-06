@@ -46,7 +46,7 @@ function SocialMedia() {
         <FaDiscord size={15} className="text-slate-100" />
       </a>
       <a
-        href="https://mailto:fantompocong@proton.me/"
+        href="mailto:fantompocong@proton.me/"
         aria-label="Author Mail"
         target="_blank"
         rel="noreferrer"
