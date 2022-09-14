@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import OutlineGradientButton from "../button/OutlineGradientButton";
 import { motion } from "framer-motion";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 const ArtistFullName = "FantomPocong";
 const ArtistNickName = "Pocong";
