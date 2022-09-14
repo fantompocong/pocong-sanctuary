@@ -5,7 +5,7 @@ import { formatDate } from "utils/contents";
 
 const KartuArtikel = (post: Post) => {
   return (
-    <div className="bg-darkSecondary rounded-md overflow-hidden border-2 border-slate-300 border-opacity-40 hover:scale-[1.02] transition-transform ease-in-out">
+    <div className="bg-darkSecondary rounded-none overflow-hidden border-2 border-greenAccent hover:scale-[1.02] transition-transform ease-in-out">
       <div className="w-full h-48 relative overflow-hidden">
         <Image
           layout="fill"
