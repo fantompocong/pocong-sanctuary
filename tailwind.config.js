@@ -10,8 +10,8 @@ module.exports = {
         primary: ["monospace", ...fontFamily.sans],
       },
       colors: {
-        darkPrimary: "#121212",
-        darkSecondary: "#212121",
+        darkPrimary: "#000000",
+        darkSecondary: "#010101",
         lightPrimary: "#EDF6F9",
         lightSecondary: "#FFFFFF",
         greenAccent: "#00FF80",
