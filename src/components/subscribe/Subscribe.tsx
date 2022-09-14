@@ -7,7 +7,6 @@ const Subscribe = () => {
 
   return (
     <footer className="mx-auto p-5 w-full">
-      <p className="text-center mt-8">Contact Me!</p>
       <SocialMedia />
       <div>
         <p className="text-center text-xs mt-8 opacity-60">
