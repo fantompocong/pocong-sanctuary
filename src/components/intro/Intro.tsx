@@ -31,11 +31,8 @@ const Intro = () => {
         <p className="my-8 text-lg sm:text-xl max-w-xl mx-auto">
         I am a self-proclaimed crypto artist and member of <a className="text-greenAccent" href="https://twitter.com/search?q=%23NonBlokMovement&src=typed_query&f=live">#NonBlokMovement</a>.
         </p>
-
-        <div className="flex items-center justify-center sm:gap-16 gap-2 my-20">
-          <OutlineGradientButton url="/blog" title="Read My Posts" />
-          <OutlineGradientButton url="/about" title="About Me" />
-        </div>
+        <br></br>
+        <AiOutlineArrowDown size={30} className="my-8 max-w-xl mx-auto text-greenAccent" />
       </div>
     </motion.div>
   );
