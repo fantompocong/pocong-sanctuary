@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function ProjectCard(project: Project) {
   return (
-    <div className="flex flex-col gap-3 bg-darkSecondary p-4 border border-slate-300 border-opacity-40 rounded-md hover:scale-[1.02] transition-transform ease-in-out">
+    <div className="flex flex-col gap-3 bg-darkSecondary p-4 border-2 border-greenAccent  rounded-none hover:scale-[1.02] transition-transform ease-in-out">
       <h3 className="font-bold text-2xl hover:text-greenAccent transition-colors w-fit">
         <Link href={project.url}>{project.title}</Link>
       </h3>
