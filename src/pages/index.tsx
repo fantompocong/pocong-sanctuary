@@ -13,7 +13,7 @@ const Home = ({ posts, projects }: { posts: Post[]; projects: Project[] }) => {
         <title>Home - pocong.xyz</title>
         <meta
           name="description"
-          content="A personal blog to showcase projects and some articles in Wed Development fields"
+          content="A personal blog to showcase my learning process. I currently learning about cryptocurrency and blockchain technology and its relation to art. As part of my learning process, I have launched several projects."
         />
       </Head>
       <Intro />
