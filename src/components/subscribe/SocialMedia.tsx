@@ -14,45 +14,45 @@ function SocialMedia() {
         aria-label="Author Twitter"
         target="_blank"
         rel="noreferrer"
-        className="bg-sky-500 rounded-full p-3 hover:bg-sky-700 transition-colors duration-500"
+        className="rounded-full p-3 hover:bg-green-400 transition-colors duration-500"
       >
-        <FaTwitter size={15} className="text-slate-100" />
+        <FaTwitter size={25} className="fill-white opacity-50 hover:fill-black hover:opacity-100" />
       </a>
       <a
         href="https://instagram.com/fantompocong/"
         aria-label="Author instagram"
         target="_blank"
         rel="noreferrer"
-        className="bg-pink-600 rounded-full p-3 hover:bg-pink-800 transition-colors duration-500"
+        className="rounded-full p-3 hover:bg-green-400 transition-colors duration-500"
       >
-        <FaInstagram size={15} className="text-slate-100" />
+        <FaInstagram size={25} className="fill-white opacity-50 hover:fill-black hover:opacity-100" />
       </a>
       <a
         href="https://github.com/fantompocong/"
         aria-label="Author Github"
         target="_blank"
         rel="noreferrer"
-        className="bg-slate-800 rounded-full p-3 hover:bg-slate-900 transition-colors duration-500"
+        className="rounded-full p-3 hover:bg-green-400 transition-colors duration-500"
       >
-        <FaGithub size={15} className="text-slate-100" />
+        <FaGithub size={25} className="fill-white opacity-50 hover:fill-black hover:opacity-100" />
       </a>
       <a
         href="https://discord.com/invite/XAHA5XHNr7"
         aria-label="Author Discord"
         target="_blank"
         rel="noreferrer"
-        className="bg-slate-800 rounded-full p-3 hover:bg-slate-900 transition-colors duration-500"
+        className="rounded-full p-3 hover:bg-green-400 transition-colors duration-500"
       >
-        <FaDiscord size={15} className="text-slate-100" />
+        <FaDiscord size={25} className="fill-white opacity-50 hover:fill-black hover:opacity-100" />
       </a>
       <a
         href="mailto:fantompocong@proton.me/"
         aria-label="Author Mail"
         target="_blank"
         rel="noreferrer"
-        className="bg-slate-800 rounded-full p-3 hover:bg-slate-900 transition-colors duration-500"
+        className="rounded-full p-3 hover:bg-green-400 transition-colors duration-500"
       >
-        <FaEnvelope size={15} className="text-slate-100" />
+        <FaEnvelope size={25} className="fill-white opacity-50 hover:fill-black hover:opacity-100" />
       </a>
     </div>
   );
