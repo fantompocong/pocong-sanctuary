@@ -22,7 +22,7 @@ const Home = ({ posts, projects }: { posts: Post[]; projects: Project[] }) => {
       <div className="font-mono mt-6 flex justify-end text-base font-medium leading-6">
             <Link
               href="/projects"
-              className="text-background-color hover:text-primary-600 dark:text-white dark:hover:text-primary-400"
+              className="text-background-color hover:text-primary-600 dark:text-white dark:hover:text-primary-400 hover:text-greenAccent"
               aria-label="all posts"
             >
               All Projects &rarr;
@@ -33,7 +33,7 @@ const Home = ({ posts, projects }: { posts: Post[]; projects: Project[] }) => {
       <div className="font-mono mt-6 flex justify-end text-base font-medium leading-6">
             <Link
               href="/blog"
-              className="text-background-color hover:text-primary-600 dark:text-white dark:hover:text-primary-400"
+              className="text-background-color hover:text-primary-600 dark:text-white dark:hover:text-primary-400 hover:text-greenAccent"
               aria-label="all posts"
             >
               All Posts &rarr;
