@@ -14,11 +14,9 @@ function PersonalProjects({ projects }: { projects: Project[] }) {
       id="personal-projects"
       className="my-8"
     >
-      <Link href="/projects">
-        <h2 className="text-3xl font-bold hover:cursor-pointer hover:text-greenAccent w-fit transition-colors">
+        <h2 className="text-3xl font-bold hover:cursor-pointer w-fit transition-colors">
           Recent Projects
         </h2>
-      </Link>
       <div className="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.slice(0, MAX_DISPLAY).map((project) => (
           <ProjectCard key={project.url} {...project} />
