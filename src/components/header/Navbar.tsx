@@ -118,6 +118,21 @@ const Navbar = () => {
                   </p>
                 </Link>
               </li>
+              <li>
+                <Link href="/about">
+                  <p
+                    className={`${
+                      router.pathname === "https://1965.vercel.app/"
+                        ? "text-greenAccent bg-darkSecondary rounded"
+                        : ""
+                    }
+                    font-bold cursor-pointer hover:text-greenAccent hover:bg-darkSecondary hover:rounded transition-colors duration-300 px-1 py-0.5
+                    `}
+                  >
+                    The 1965 Pocongs
+                  </p>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
