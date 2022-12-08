@@ -119,7 +119,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/about">
+                <Link href="https://1965.vercel.app/">
                   <p
                     className={`${
                       router.pathname === "https://1965.vercel.app/"
