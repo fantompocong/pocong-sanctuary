@@ -132,6 +132,21 @@ const Navbar = () => {
                     The 1965 Pocongs
                   </p>
                 </Link>
+              <li>
+                <Link href="https://v1.beets.fi/#/lge/0x96a0bc8836b55e055276bf594f30bde8f00dc3cb0002000000000000000005fe">
+                  <p
+                    className={`${
+                      router.pathname === "https://v1.beets.fi/#/lge/0x96a0bc8836b55e055276bf594f30bde8f00dc3cb0002000000000000000005fe"
+                        ? "text-greenAccent bg-darkSecondary rounded"
+                        : ""
+                    }
+                    font-bold cursor-pointer hover:text-greenAccent hover:bg-darkSecondary hover:rounded transition-colors duration-300 px-1 py-0.5
+                    `}
+                  >
+                    $CONK
+                  </p>
+                </Link>
+              </li>
               </li>
             </ul>
           </div>
