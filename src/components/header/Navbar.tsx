@@ -136,7 +136,7 @@ const Navbar = () => {
                 <Link href="https://v1.beets.fi/#/lge/0x96a0bc8836b55e055276bf594f30bde8f00dc3cb0002000000000000000005fe">
                   <p
                     className={`${
-                      router.pathname === "https://v1.beets.fi/#/lge/0x96a0bc8836b55e055276bf594f30bde8f00dc3cb0002000000000000000005fe"
+                      router.pathname === "https://conkme.com/"
                         ? "text-greenAccent bg-darkSecondary rounded"
                         : ""
                     }
